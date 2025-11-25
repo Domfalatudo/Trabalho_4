@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
+    color: inherit;
+}
+
+
+
+body {
+    margin: 0;
+    background: #dfe6f0;
+    font-family: "DM Mono", monospace;
+}
+
+.layout {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.left {
+    flex: 1;
+    padding: 60px 70px;
+    position: relative;
+}
+
+.title-box {
+    background: white;
+    padding: 25px 40px;
+    border-radius: 18px;
+    width: 360px;
+}
+
+.title-box h1 {
+    margin: 0;
+    font-size: 28px;
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+.desc {
+    margin: 40px;
+    font-size: 20px;
+    line-height: 1.55;
+    max-width: 350px;
+}
+
+.language {
+    position: absolute;
+    bottom: 40px;
+    left: 70px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.language img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.language span {
+    font-size: 26px;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 450px;
+    background: white;
+    border-radius: 22px;
+    padding: 50px;
+}
+
+.card h2 {
+    margin: 0 0 25px 0;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #000;
+}
+
+form input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #e7f0fa;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 17px;
+    box-sizing: border-box;
+    margin-bottom: 2px;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 15px 0 25px 0;
+    font-size: 12px;
+    justify-content: flex-start;
+}
+
+.check input[type="checkbox"] {
+    margin: 0;
+    width: 16px;
+    height: 16px;
+}
+
+.check-label {
+    cursor: pointer;
+    max-width: 300px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #dce5f2;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.login {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.login a {
+    color: #0033cc;
+    text-decoration: none;
+}
