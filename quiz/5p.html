@@ -1,11 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quinta Pergunta</title>
+    <title>SabeBr - Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/5p.css">
 </head>
+
 <body>
-    
+
+    <header class="header">
+        <div class="nav-box">
+            <div class="left">
+                <a href="../pages/home.html" class="logo">SabeBr</a>
+                <div class="line"></div>
+                <nav class="menu">
+                    <a href="../pages/pontos.html"><strong>Turismo</strong></a>
+                    <a href="../pages/cultura.html"><strong>Cultura</strong></a>
+                    <a href="../pages/culinaria.html"><strong>Culinária</strong></a>
+                    <a href="../pages/economia.html"><strong>Economia</strong></a>
+                </nav>
+            </div>
+            <div class="right">
+                <a href="../pages/login.html" class="login">Login</a>
+                <a href="../index.html" class="signup">Sign Up →</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="quiz-container">
+
+        <h1 class="quiz-title">5) Qual é o idioma oficial do Brasil?</h1>
+
+        <div class="quiz-box">
+            <p>A) Espanhol </p>
+            <p>B) Francês </p>
+            <p>C) Português </p>
+            <p>D) Italiano</p>
+        </div>
+
+        <div class="spoiler" onclick="this.classList.toggle('revealed')">
+            <button class="spoiler-button">Revelar Resposta</button>
+            <span class="spoiler-text">✔ A resposta correta é: <strong>C) Português</strong></span>
+        </div>
+
+        <a href="../pages/home.html" class="next-btn">Você chegou ao fim</a>
+
+    </main>
+
+    <footer>
+        &copy; 2025 SabeBr. Todos os direitos reservados.
+    </footer>
+
 </body>
 </html>
