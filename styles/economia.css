@@ -7,6 +7,8 @@
 }
 
 body {
+    max-width: 1220px;
+    margin: auto;
     background: #eaf1fa;
     display: flex;
     flex-direction: column;
@@ -14,6 +16,7 @@ body {
 }
 
 .header {
+    position: fixed;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -93,7 +96,7 @@ body {
 
 .container {
     width: 80%;
-    margin-top: 50px;
+    margin-top: 6rem;
 }
 
 .title {

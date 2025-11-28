@@ -6,6 +6,8 @@
 }
 
 body {
+    max-width: 1220px;
+    margin: auto;
     background: #eaf1fa;
     display: flex;
     flex-direction: column;
@@ -13,6 +15,7 @@ body {
 }
 
 .header {
+    position: fixed;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -91,12 +94,13 @@ body {
 }
 
 .hero {
-    width: 80%;
+    width: 100%;
     max-width: 1100px;
     margin: 80px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 15rem;
 }
 
 .text-box {

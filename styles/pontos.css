@@ -8,6 +8,8 @@
 
 
 body {
+    max-width: 1220px;
+    margin: auto;
     background: #eaf1fa;
     display: flex;
     flex-direction: column;
@@ -15,10 +17,12 @@ body {
 }
 
 .header {
+    position: fixed;
     width: 100%;
     display: flex;
     justify-content: center;
     padding-top: 22px;
+    z-index: 100;
 }
 
 .nav-box {
@@ -94,7 +98,7 @@ body {
 
 .container {
     width: 80%;
-    margin-top: 50px;
+    margin-top: 6rem;
     position: relative;
 }
 
