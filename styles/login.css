@@ -77,10 +77,7 @@ body {
 
 .right {
     flex: 1;
-<<<<<<< HEAD
-=======
     min-width: 23.75rem;
->>>>>>> 0df54ad20a4675923496a8b1b04b36423145588f
     display: flex;
     align-items: center;
     justify-content: center;
