@@ -28,7 +28,7 @@
             </p>
 
             <div class="language">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg" alt="Bandeira do Brasil">
                 Português
                 <span>›</span>
             </div>
@@ -41,21 +41,21 @@
                 <h2>Sign Up</h2>
 
                 <form action="./pages/home.html">
-                    <label>Nome:</label>
-                    <input type="text">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" required>
 
-                    <label>Email:</label>
-                    <input type="email">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
 
-                    <label>Senha:</label>
-                    <input type="password">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" required>
 
-                    <label>Confirme:</label>
-                    <input type="password">
+                    <label for="confirm">Confirme:</label>
+                    <input type="password" id="confirm" required>
 
                     <div class="check">
-                        <input type="checkbox" required>
-                        <span>Ao clicar você estará enviando dados à Nárnia</span>
+                        <input type="checkbox" id="checkbox" required>
+                        <label for="checkbox">Ao clicar você estará enviando dados à Nárnia</label>
                     </div>
 
                     <button type="submit">Sign Up</button>

@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: "DM Sans", sans-serif;
     scroll-behavior: smooth;
+
+    list-style: none;
 }
 
 body {
@@ -21,6 +23,7 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 22px;
+    z-index: 100;
 }
 
 .nav-box {
@@ -162,22 +165,34 @@ body {
     color: white;
     padding: 30px 20px;
     border-radius: 6px;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 1.65;
     min-width: 250px;
 }
 
+.container p {
+    margin-bottom: 1rem;
+}
+
+.container li {
+    margin-bottom: 0.2rem;
+}
+
 .img-diversidade img,
-.img-ingredientes img,
 .img-festas img {
     width: 580px;
     border-radius: 10px;
     height: auto;
 }
 
-.section-ingredientes .right-content {
-    display: flex;
-    flex-direction: column;
+.img-ingredientes img {
+    position: relative;
+    top: 15rem;
+    width: 580px;
+}
+
+li {
+    font-size: 1rem;
 }
 
 footer {
