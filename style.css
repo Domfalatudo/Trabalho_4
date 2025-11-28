@@ -6,7 +6,6 @@
     outline: none;
     border: none;
     color: inherit;
-    user-select: none;
 }
 
 body {
@@ -145,4 +144,14 @@ button {
 
 .login a {
     color: #0033cc;
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }
