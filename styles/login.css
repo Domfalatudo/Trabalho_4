@@ -77,7 +77,6 @@ body {
 
 .right {
     flex: 1;
-    min-width: 380px;
     display: flex;
     align-items: center;
     justify-content: center;
