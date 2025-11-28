@@ -148,26 +148,3 @@ button {
 .login a {
     color: #0033cc;
 }
-
-/* Isso séria a configuração para ficar bonitinho no celular marcio e tentei aprender isso sozinho */
-@media (max-width: 900px) {
-    .layout {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .left {
-        padding: 40px 25px;
-    }
-
-    .language {
-        position: static;
-        margin: 40px auto 0;
-        justify-content: center;
-    }
-
-    .desc {
-        margin: 30px auto;
-    }
-}
