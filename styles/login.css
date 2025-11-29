@@ -15,7 +15,91 @@ body {
     font-family: "DM Mono", monospace;
 }
 
+.header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 22px;
+    font-family: "DM Sans", sans-serif;
+    z-index: 100;
+}
+
+.nav-box {
+    width: 80%;
+    max-width: 1100px;
+    background: #ffffff;
+    height: 58px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 28px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 20px;
+}
+
+.header-left a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.header-logo {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.header-line {
+    width: 1px;
+    height: 23px;
+    background: #d0d0d0;
+}
+
+.header-menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header-menu a {
+    color: #444;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: #444;
+    font-size: 14px;
+}
+
+.header-signup {
+    background: #2a5088;
+    color: #fff !important;
+    padding: 8px 18px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+
 .layout {
+    padding-top: 4rem;
     display: flex;
     width: 100%;
     min-height: 100vh;
