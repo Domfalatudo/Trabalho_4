@@ -131,7 +131,9 @@ form input {
 }
 
 .check label {
-    font-size: 0.9rem
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    font-weight: 400;
 }
 
 button {
